@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A134A8C15E3D07000191E26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A134A8B15E3D07000191E26 /* UIKit.framework */; };
+		6A134A8E15E3D07000191E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A134A8D15E3D07000191E26 /* Foundation.framework */; };
+		6A134A9015E3D07000191E26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A134A8F15E3D07000191E26 /* CoreGraphics.framework */; };
+		6A134A9615E3D07000191E26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A134A9415E3D07000191E26 /* InfoPlist.strings */; };
+		6A134A9815E3D07000191E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A134A9715E3D07000191E26 /* main.m */; };
+		6A134A9C15E3D07000191E26 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A134A9B15E3D07000191E26 /* PrincipalAppDelegate.m */; };
+		6A134A9F15E3D07000191E26 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A134A9D15E3D07000191E26 /* MainStoryboard_iPhone.storyboard */; };
+		6A134AA215E3D07000191E26 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A134AA015E3D07000191E26 /* MainStoryboard_iPad.storyboard */; };
+		6A134AA515E3D07000191E26 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A134AA415E3D07000191E26 /* PrincipalViewController.m */; };
+		6A134AAD15E3D07000191E26 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A134AAC15E3D07000191E26 /* SenTestingKit.framework */; };
+		6A134AAE15E3D07000191E26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A134A8B15E3D07000191E26 /* UIKit.framework */; };
+		6A134AAF15E3D07000191E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A134A8D15E3D07000191E26 /* Foundation.framework */; };
+		6A134AB715E3D07000191E26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A134AB515E3D07000191E26 /* InfoPlist.strings */; };
+		6A134ABA15E3D07000191E26 /* VetoresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A134AB915E3D07000191E26 /* VetoresTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A134AB015E3D07000191E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A134A7E15E3D07000191E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A134A8615E3D07000191E26;
+			remoteInfo = Vetores;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A134A8715E3D07000191E26 /* Vetores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vetores.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A134A8B15E3D07000191E26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A134A8D15E3D07000191E26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A134A8F15E3D07000191E26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A134A9315E3D07000191E26 /* Vetores-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vetores-Info.plist"; sourceTree = "<group>"; };
+		6A134A9515E3D07000191E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A134A9715E3D07000191E26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A134A9915E3D07000191E26 /* Vetores-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vetores-Prefix.pch"; sourceTree = "<group>"; };
+		6A134A9A15E3D07000191E26 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A134A9B15E3D07000191E26 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A134A9E15E3D07000191E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6A134AA115E3D07000191E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6A134AA315E3D07000191E26 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A134AA415E3D07000191E26 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A134AAB15E3D07000191E26 /* VetoresTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VetoresTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A134AAC15E3D07000191E26 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A134AB415E3D07000191E26 /* VetoresTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VetoresTests-Info.plist"; sourceTree = "<group>"; };
+		6A134AB615E3D07000191E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A134AB815E3D07000191E26 /* VetoresTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VetoresTests.h; sourceTree = "<group>"; };
+		6A134AB915E3D07000191E26 /* VetoresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VetoresTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A134A8415E3D07000191E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A134A8C15E3D07000191E26 /* UIKit.framework in Frameworks */,
+				6A134A8E15E3D07000191E26 /* Foundation.framework in Frameworks */,
+				6A134A9015E3D07000191E26 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A134AA715E3D07000191E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A134AAD15E3D07000191E26 /* SenTestingKit.framework in Frameworks */,
+				6A134AAE15E3D07000191E26 /* UIKit.framework in Frameworks */,
+				6A134AAF15E3D07000191E26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A134A7C15E3D07000191E26 = {
+			isa = PBXGroup;
+			children = (
+				6A134A9115E3D07000191E26 /* Vetores */,
+				6A134AB215E3D07000191E26 /* VetoresTests */,
+				6A134A8A15E3D07000191E26 /* Frameworks */,
+				6A134A8815E3D07000191E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A134A8815E3D07000191E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A134A8715E3D07000191E26 /* Vetores.app */,
+				6A134AAB15E3D07000191E26 /* VetoresTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A134A8A15E3D07000191E26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A134A8B15E3D07000191E26 /* UIKit.framework */,
+				6A134A8D15E3D07000191E26 /* Foundation.framework */,
+				6A134A8F15E3D07000191E26 /* CoreGraphics.framework */,
+				6A134AAC15E3D07000191E26 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A134A9115E3D07000191E26 /* Vetores */ = {
+			isa = PBXGroup;
+			children = (
+				6A134A9A15E3D07000191E26 /* PrincipalAppDelegate.h */,
+				6A134A9B15E3D07000191E26 /* PrincipalAppDelegate.m */,
+				6A134A9D15E3D07000191E26 /* MainStoryboard_iPhone.storyboard */,
+				6A134AA015E3D07000191E26 /* MainStoryboard_iPad.storyboard */,
+				6A134AA315E3D07000191E26 /* PrincipalViewController.h */,
+				6A134AA415E3D07000191E26 /* PrincipalViewController.m */,
+				6A134A9215E3D07000191E26 /* Supporting Files */,
+			);
+			path = Vetores;
+			sourceTree = "<group>";
+		};
+		6A134A9215E3D07000191E26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A134A9315E3D07000191E26 /* Vetores-Info.plist */,
+				6A134A9415E3D07000191E26 /* InfoPlist.strings */,
+				6A134A9715E3D07000191E26 /* main.m */,
+				6A134A9915E3D07000191E26 /* Vetores-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A134AB215E3D07000191E26 /* VetoresTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A134AB815E3D07000191E26 /* VetoresTests.h */,
+				6A134AB915E3D07000191E26 /* VetoresTests.m */,
+				6A134AB315E3D07000191E26 /* Supporting Files */,
+			);
+			path = VetoresTests;
+			sourceTree = "<group>";
+		};
+		6A134AB315E3D07000191E26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A134AB415E3D07000191E26 /* VetoresTests-Info.plist */,
+				6A134AB515E3D07000191E26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A134A8615E3D07000191E26 /* Vetores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A134ABD15E3D07000191E26 /* Build configuration list for PBXNativeTarget "Vetores" */;
+			buildPhases = (
+				6A134A8315E3D07000191E26 /* Sources */,
+				6A134A8415E3D07000191E26 /* Frameworks */,
+				6A134A8515E3D07000191E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vetores;
+			productName = Vetores;
+			productReference = 6A134A8715E3D07000191E26 /* Vetores.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A134AAA15E3D07000191E26 /* VetoresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A134AC015E3D07000191E26 /* Build configuration list for PBXNativeTarget "VetoresTests" */;
+			buildPhases = (
+				6A134AA615E3D07000191E26 /* Sources */,
+				6A134AA715E3D07000191E26 /* Frameworks */,
+				6A134AA815E3D07000191E26 /* Resources */,
+				6A134AA915E3D07000191E26 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A134AB115E3D07000191E26 /* PBXTargetDependency */,
+			);
+			name = VetoresTests;
+			productName = VetoresTests;
+			productReference = 6A134AAB15E3D07000191E26 /* VetoresTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A134A7E15E3D07000191E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rafael Brigagão Paulino";
+			};
+			buildConfigurationList = 6A134A8115E3D07000191E26 /* Build configuration list for PBXProject "Vetores" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A134A7C15E3D07000191E26;
+			productRefGroup = 6A134A8815E3D07000191E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A134A8615E3D07000191E26 /* Vetores */,
+				6A134AAA15E3D07000191E26 /* VetoresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A134A8515E3D07000191E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A134A9615E3D07000191E26 /* InfoPlist.strings in Resources */,
+				6A134A9F15E3D07000191E26 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6A134AA215E3D07000191E26 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A134AA815E3D07000191E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A134AB715E3D07000191E26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A134AA915E3D07000191E26 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A134A8315E3D07000191E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A134A9815E3D07000191E26 /* main.m in Sources */,
+				6A134A9C15E3D07000191E26 /* PrincipalAppDelegate.m in Sources */,
+				6A134AA515E3D07000191E26 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A134AA615E3D07000191E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A134ABA15E3D07000191E26 /* VetoresTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A134AB115E3D07000191E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A134A8615E3D07000191E26 /* Vetores */;
+			targetProxy = 6A134AB015E3D07000191E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A134A9415E3D07000191E26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A134A9515E3D07000191E26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A134A9D15E3D07000191E26 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A134A9E15E3D07000191E26 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6A134AA015E3D07000191E26 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A134AA115E3D07000191E26 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6A134AB515E3D07000191E26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A134AB615E3D07000191E26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A134ABB15E3D07000191E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A134ABC15E3D07000191E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A134ABE15E3D07000191E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vetores/Vetores-Prefix.pch";
+				INFOPLIST_FILE = "Vetores/Vetores-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A134ABF15E3D07000191E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vetores/Vetores-Prefix.pch";
+				INFOPLIST_FILE = "Vetores/Vetores-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A134AC115E3D07000191E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vetores.app/Vetores";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vetores/Vetores-Prefix.pch";
+				INFOPLIST_FILE = "VetoresTests/VetoresTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A134AC215E3D07000191E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vetores.app/Vetores";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vetores/Vetores-Prefix.pch";
+				INFOPLIST_FILE = "VetoresTests/VetoresTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A134A8115E3D07000191E26 /* Build configuration list for PBXProject "Vetores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A134ABB15E3D07000191E26 /* Debug */,
+				6A134ABC15E3D07000191E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A134ABD15E3D07000191E26 /* Build configuration list for PBXNativeTarget "Vetores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A134ABE15E3D07000191E26 /* Debug */,
+				6A134ABF15E3D07000191E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A134AC015E3D07000191E26 /* Build configuration list for PBXNativeTarget "VetoresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A134AC115E3D07000191E26 /* Debug */,
+				6A134AC215E3D07000191E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A134A7E15E3D07000191E26 /* Project object */;
+}
